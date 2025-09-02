@@ -628,7 +628,7 @@ class LineFollower(Node):
             #self.get_logger().info(f"X_simple:{x_mean}")
             whiteLineFromCentreDistance3 = x_left  - width//2
             calib = -48
-            #self.get_logger().info(f"yellowLineFromCentreDistanceToExit tunnel:{whiteLineFromCentreDistance3}") #calibration
+            self.get_logger().info(f"yellowLineFromCentreDistanceToExit tunnel:{whiteLineFromCentreDistance3}") #calibration
             self.errorExit = whiteLineFromCentreDistance3 - calib
             
         else:
