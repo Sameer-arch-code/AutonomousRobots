@@ -19,3 +19,8 @@ Steps:
 
 
 
+autorace_real node is a large state machine. 
+
+
+
+
