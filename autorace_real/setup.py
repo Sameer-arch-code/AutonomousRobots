@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'follow_wall'
+package_name = 'autorace_real'
 
 setup(
     name=package_name,
@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'follow_wall_node = follow_wall.follow_wall_node:main'
+            'enter_tunnel_real = autorace_real.enter_tunnel_real:main',
+            'autorace_real = autorace_real.autorace_real:main'
         ],
     },
 )
